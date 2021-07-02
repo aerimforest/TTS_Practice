@@ -9,8 +9,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:gravity="center">
+        android:gravity="center"
+        android:orientation="vertical">
 
         <EditText
             android:id="@+id/editText"
@@ -23,10 +23,13 @@
 
         <Button
             android:id="@+id/button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
             android:layout_marginTop="46dp"
-            android:text="말하기" />
+            android:background="@drawable/background_btn_speak"
+            android:text="말하기"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
 
     </LinearLayout>
 
